@@ -1,5 +1,9 @@
 import SimpleLightbox from 'simplelightbox';
 
+import leftArrowIcon from '../img/left-arrow.svg';
+import rightArrowIcon from '../img/right-arrow.svg';
+import closeIcon from '../img/close-icon.svg';
+
 const images = [
   {
     preview:
@@ -91,8 +95,8 @@ new SimpleLightbox('.gallery a', {
   overlayOpacity: 1,
   className: 'modal',
   navText: [
-    '<img src="../img/left-arrow.svg" />',
-    '<img src="../img/right-arrow.svg" />',
+    `<img src="${leftArrowIcon}" />`,
+    `<img src="${rightArrowIcon}" />`,
   ],
-  closeText: '<img src="../img/close-icon.svg" />',
+  closeText: `<img src="${closeIcon}" />`,
 });
