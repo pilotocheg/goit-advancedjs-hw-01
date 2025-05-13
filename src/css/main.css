@@ -20,6 +20,6 @@ body {
   font-weight: 500;
 }
 
-.page-link:hover {
+.page-list-item a:hover {
   text-decoration: underline;
 }
